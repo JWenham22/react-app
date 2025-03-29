@@ -1,0 +1,38 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-heading {
+    font-size: 2.5rem;
+}
+
+.home-description {
+    font-weight: bold;
+    font-size: large;
+}
+
+.home-img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    padding: 20px;
+    display: block;
+    margin: auto;
+}
+
+.home-btns {
+    margin-top: 50px;;
+    padding: 10px;
+}
+
+.btn-link {
+    margin: 10px;
+    background-color: #0d1321;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}

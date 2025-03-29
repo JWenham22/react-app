@@ -1,0 +1,33 @@
+.nav-container {
+    min-height: 100px;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 10px;
+    background-color: #0d1321;
+    top: 0;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
+
+.nav-title {
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links a {
+    color: white;
+    font-size: large;
+    padding: 10px;
+    text-decoration: none;
+}

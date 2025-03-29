@@ -1,0 +1,39 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-heading {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.about-content {
+    font-size: 1.1rem;
+}
+
+.about-features-list {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+.about-features-list li {
+    margin-bottom: 0.5rem;
+}
+
+.about-btn-link {
+    margin-top: 50px;
+    text-decoration: none;
+    background-color: #0d1321;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}

@@ -1,24 +1,22 @@
-import { useState } from 'react'
-import { BrowserRouter, Router, Route, Routes } from 'react-router-dom'
-import Navbar from './components/Navbar/Navbar'
-import Home from './components/Home/Home'
-import About from './components/About/About'
-import TopCourses from './components/TopCourses/TopCourses'
-import './App.css'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar/Navbar';
+import Home from './components/Home/Home';
+// import About from './components/About/About';
+import TopCourses from './components/TopCourses/TopCourses';
+import './App.css';
 
 const App = () => {
-
   return (
+    <Router>
       <div className="app-container">
         <Navbar />
-        <Home />
-        <About />
-        <Router>
-          <Routes>
-            <Route path="/top" component={TopCourses} />
-          </Routes>
-        </Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          {/* <Route path="/about" element={<About />} /> */}
+          <Route path="/top" element={<TopCourses />} />
+        </Routes>
       </div>
+    </Router>
   );
 };
 

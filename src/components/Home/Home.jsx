@@ -1,6 +1,7 @@
 import './Home.css';
 import { Link } from 'react-router-dom'
 import courseImage from '../../images/default-course.jpg.webp';
+import About from '../About/About'
 
 const Home = () => {
     return (
@@ -11,6 +12,9 @@ const Home = () => {
                 <Link to="/signup" className="btn-link">Sign Up</Link>
                 <Link to="/login" className="btn-link">Login</Link>
             </div>
+
+
+            <About />
         </div>
     );
 };

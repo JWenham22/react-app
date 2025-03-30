@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const About = () => {
     return (
-        <div className="about-container">
+        <div className="about-container" id="about-section">
             <h1 className="about-heading">About CourseRate.Golf</h1>
             <hr />
             <section className="about-content">

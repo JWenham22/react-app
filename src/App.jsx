@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import Home from './components/Home/Home';
 // import About from './components/About/About';
-import TopCourses from './components/TopCourses/TopCourses';
+import SearchCourses from './components/SearchCourse/SearchCourse'
 import './App.css';
 
 const App = () => {
@@ -13,7 +13,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           {/* <Route path="/about" element={<About />} /> */}
-          <Route path="/top" element={<TopCourses />} />
+          <Route path="/search" element={<SearchCourses />} />
         </Routes>
       </div>
     </Router>

@@ -27,7 +27,7 @@ const About = () => {
                     Start exploring today and share your experience with others!
                 </p>
             </section>
-            <Link to="/top" className="about-btn-link">Top Courses</Link>
+            <Link to="/top" className="about-btn-link">Search Courses</Link>
         </div>
     );
 };
